@@ -72,11 +72,11 @@ export default function TextForm(props) {
         </label>
               <textarea className="form-control border-5" value={text} onChange={handleOnChange} id="exampleFormControlTextarea1" rows="8" style={{backgroundColor:props.mode==='light'?'white':'#687d90'}}></textarea>
           </div>
-          <button type="button" className="btn btn-primary mx-2" onClick={handleUPCLick}>Convert to UpperCase</button>
-        <button type="button" className="btn btn-primary mx-2" onClick={handleLOCLick}>Convert to LowerCase</button>
-        <button type="button" className="btn btn-primary mx-2" onClick={handleCopy}>Copy Text</button>
-        <button type="button" className="btn btn-primary mx-2" onClick={handleRemSpaces}>Remove Extra Spaces</button>
-        <button type="button" className="btn btn-primary mx-2" onClick={handleClear}>Clear Content</button>
+          <button type="button" className="btn btn-primary mx-2 my-2" onClick={handleUPCLick}>Convert to UpperCase</button>
+        <button type="button" className="btn btn-primary mx-2 my-2" onClick={handleLOCLick}>Convert to LowerCase</button>
+        <button type="button" className="btn btn-primary mx-2 my-2" onClick={handleCopy}>Copy Text</button>
+        <button type="button" className="btn btn-primary mx-2 my-2" onClick={handleRemSpaces}>Remove Extra Spaces</button>
+        <button type="button" className="btn btn-primary mx-2 my-2" onClick={handleClear}>Clear Content</button>
         
           <div className="container my-4">
               <h1>Text Summary</h1>
