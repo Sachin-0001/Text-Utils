@@ -67,7 +67,7 @@ export default function TextForm(props) {
   return (
     <div className="container my-3" >
       <div className="mb-3">
-        <label for="exampleFormControlTextarea1" className="form-label">
+        <label htmlFor="exampleFormControlTextarea1" className="form-label">
                   <h1> {props.heading}</h1>
         </label>
               <textarea className="form-control border-5" value={text} onChange={handleOnChange} id="exampleFormControlTextarea1" rows="8" style={{backgroundColor:props.mode==='light'?'white':'#687d90'}}></textarea>
